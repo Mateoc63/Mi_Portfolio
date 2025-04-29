@@ -1,8 +1,11 @@
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -314,16 +317,15 @@ animation: floatIcons 12s ease-in-out infinite alternate;
 }
 
 /* Sección de Proyectos */
-/* Sección de proyectos */
 .proyectos {
     padding: 3rem 0;
     text-align: center;
 }
 
 .contenedor-proyectos {
-    display: grid; /* Usamos grid para la disposición de los proyectos */
-    grid-template-columns: repeat(3, 1fr); /* Tres columnas en pantallas grandes */
-    gap: 2rem; /* Espaciado entre los proyectos */
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 2rem; 
     margin-top: 2rem;
 }
 
