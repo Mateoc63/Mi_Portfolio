@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mateo Cagnoni | Portafolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="imagenes/m-solid.svg" type="image/x-icon">
+  <!-- AOS Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <h1>Mateo Cagnoni</h1>
+    <ul>
+      <li><a href="#sobre-mi">Sobre mí</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+  </nav>
+  <!-- Hero -->
+  <section class="hero">
+    <!-- Fondos animados de tecnologías -->
+    <div class="floating-icons">
+      <i class="fab fa-html5"></i>
+      <i class="fab fa-css3-alt"></i>
+      <i class="fab fa-js-square"></i>
+      <i class="fab fa-react"></i>
+      <i class="fab fa-github"></i>
+      <!-- <i class="fab fa-node"></i> AGREGAR SI LO APRENDO-->
+      <i class="fab fa-php"></i> 
+    </div>
+    <h2>Hola, soy Mateo Cagnoni</h2>
+    <p>Desarrollador Web apasionado por crear soluciones digitales innovadoras.</p>
+    <div class="hero-buttons">
+      <a href="https://github.com/Mateoc63" target="_blank" class="tooltip">GitHub
+        <span class="tooltip-text">Visitá mi GitHub</span>
+      </a>
+      <a href="https://www.linkedin.com/in/mateo-cagnoni-b3793b334/" target="_blank" class="tooltip">LinkedIn
+        <span class="tooltip-text">Visitá mi LinkedIn</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Sobre mí -->
+  <section class="sobre-mi" id="sobre-mi">
+    <div class="container-sobre-mi">
+      <div class="sobre-mi-imagen">
+        <img src="imagenes/yo.jpg" alt="Mateo Cagnoni">
+      </div>
+      <div class="sobre-mi-texto" data-aos="fade-left">
+        <h2><i class="fas fa-user"></i> Sobre mí</h2>
+        <p>Soy estudiante de Licenciatura en Informática, con título intermedio de Analista en Informática. 
+        Apasionado por el desarrollo web, la creación de aplicaciones funcionales y enfocadas en el usuario. 
+        Me destaco en el uso de tecnologías modernas aplicando buenas prácticas de programación y diseño UX/UI.</p>
+        <a href="Mateo_Cagnoni_CV_Pasante_Producción_Mirgor.pdf" download class="boton-descarga">
+          <i class="fas fa-download"></i> Descargar CV
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- Proyectos -->
+  <section class="proyectos" id="proyectos">
+    <h2 class="titulo-seccion">Proyectos</h2>
+    <div class="contenedor-proyectos">
+      <div class="proyecto" data-aos="fade-up">
+        <img src="imagenes/animales.png" alt="Proyecto 1">
+        <div class="proyecto-info">
+          <h3>Un Amigo Para Siempre</h3>
+          <p>Una plataforma de adopción de animales.</p>
+          <a href="https://mateoc63.github.io/web-animales-en-adopcion/" target="_blank" class="ver-mas">Ver más</a>
+        </div>
+      </div>
+      <div class="proyecto" data-aos="fade-up">
+        <img src="imagenes/FreeCur.png" alt="Proyecto 2">
+        <div class="proyecto-info">
+          <h3>FreeCur</h3>
+          <p>Plataforma educativa interactiva con cursos, examenes y certificación.</p>
+          <a href="https://mateoc63.github.io/FreeCur/" target="_blank" class="ver-mas">Ver más</a>
+        </div>
+      </div>
+      <div class="proyecto" data-aos="fade-up">
+        <img src="imagenes/chichilo.png" alt="Proyecto 3">
+        <div class="proyecto-info">
+          <h3>Cantina Chichilo</h3>
+          <p>Proyecto universitario que mejora visualmente una web real</p>
+          <a href="https://mateoc63.github.io/Chichilo-Web/" target="_blank" class="ver-mas">Ver más</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Habilidades Técnicas</h2>
+    <div class="skills-category">
+      <h3>Frontend</h3>
+      <ul>
+        <li>
+          <i class="fas fa-code skill-logo"></i>
+          <span>HTML</span>
+        </li>
+        <li>
+          <i class="fab fa-css3-alt skill-logo"></i>
+          <span>CSS</span>
+        </li>
+        <li>
+          <i class="fab fa-js-square skill-logo"></i>
+          <span>JavaScript</span>
+        </li>
+        <li>
+          <i class="fab fa-react skill-logo"></i>
+          <span>React</span>
+        </li>
+      </ul>
+    </div>
+    <div class="skills-category">
+      <h3>Backend</h3>
+      <ul>
+        <li>
+          <i class="fab fa-php skill-logo"></i>
+          <span>PHP</span>
+        </li>
+        <li>
+          <i class="fab fa-solid fa-database skill-logo"></i>
+          <span>MySQL</span>
+        </li>
+        <li>
+          <i class="fab fa-solid fa-database skill-logo"></i>
+          <span>PostgreSQL</span>
+        </li>
+      </ul>
+    </div>
+    <div class="skills-category">
+      <h3>Herramientas</h3>
+      <ul>
+        <li>
+          <i class="fab fa-github skill-logo"></i>
+          <span>Git</span>
+        </li>
+        <li>
+          <i class="fab fa-github skill-logo"></i>
+          <span>GitHub</span>
+        </li>
+        <li>
+          <i class="fas fa-cogs skill-logo"></i>
+          <span>Postman</span>
+        </li>
+      </ul>
+    </div>
+    <div class="skills-category">
+      <h3>Consumo de APIs</h3>
+      <ul>
+        <li>
+          <i class="fas fa-plug skill-logo"></i>
+          <span>Fetch API</span>
+        </li>
+        <li>
+          <i class="fas fa-plug skill-logo"></i>
+          <span>Axios</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- Contactos -->
+  <section id="contact">
+    <div class="contact-container">
+      <div class="contact-header">
+        <h2>Contacto</h2>
+        <p>Estoy disponible para proyectos, dudas o charlar sobre tecnología. ¡Contáctame!</p>
+      </div>
+      <div class="contact-box">
+        <div class="contact-form">
+          <h3>Envíame un mensaje</h3>
+          <form action="https://formspree.io/f/xjkwgkrv" method="post" onsubmit="window.location.href='gracias.html';">
+            <input type="text" name="name" placeholder="Tu nombre" required>
+            <input type="email" name="_replyto" placeholder="Tu correo electrónico" required>
+            <textarea name="message" placeholder="Escribe tu mensaje..." rows="5" required></textarea>
+            <button type="submit" class="btn">Enviar</button>
+          </form>    
+        </div>
+        <div class="contact-info">
+          <h3>Más formas de contactarme</h3>
+          <div class="social-cards">
+            <a href="tel:+543329631158" class="card">
+              <i class="fas fa-phone"></i>
+              <span>Telefono</span>
+            </a>          
+            <a href="https://www.linkedin.com/in/mateo-cagnoni-b3793b334/" target="_blank" class="card">
+              <i class="fab fa-linkedin"></i>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://github.com/Mateoc63" target="_blank" class="card">
+              <i class="fab fa-github"></i>
+              <span>GitHub</span>
+            </a>
+            <a href="https://www.instagram.com/mateocagnoni_63/" target="_blank" class="card">
+              <i class="fab fa-instagram"></i>
+              <span>Instagram</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-left">
+        <p>&copy; 2025 Mateo Cagnoni. Todos los derechos reservados.</p>
+      </div>
+      <div class="footer-center">
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/in/mateo-cagnoni-b3793b334/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/Mateoc63" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.instagram.com/mateocagnoni_63/" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+      <div class="footer-right">
+        <div class="footer-links">
+          <a href="#sobre-mi">Sobre mí</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#contact">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
